@@ -1,0 +1,456 @@
+#shell_adding_hdmi_6x6_adding_-w1 - removed space in front of \x0d
+#includes hdmi_16x16 and hdmi_6x6
+#adding more ir
+#shell_command:
+#  hdmi_16x16_matrix_switch 192.168.0.68
+  hdmi_16x16_input_1_output_1: echo -e "x1AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_1: echo -e "x2AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_1: echo -e "x3AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_1: echo -e "x4AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_1: echo -e "x5AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_1: echo -e "x6AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_1: echo -e "x7AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_1: echo -e "x8AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_1: echo -e "x9AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_1: echo -e "x10AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_1: echo -e "x11AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_1: echo -e "x12AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_1: echo -e "x13AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_1: echo -e "x14AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_1: echo -e "x15AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_1: echo -e "x16AVx1\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_2: echo -e "x1AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_2: echo -e "x2AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_2: echo -e "x3AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_2: echo -e "x4AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_2: echo -e "x5AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_2: echo -e "x6AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_2: echo -e "x7AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_2: echo -e "x8AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_2: echo -e "x9AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_2: echo -e "x10AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_2: echo -e "x11AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_2: echo -e "x12AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_2: echo -e "x13AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_2: echo -e "x14AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_2: echo -e "x15AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_2: echo -e "x16AVx2\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_3: echo -e "x1AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_3: echo -e "x2AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_3: echo -e "x3AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_3: echo -e "x4AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_3: echo -e "x5AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_3: echo -e "x6AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_3: echo -e "x7AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_3: echo -e "x8AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_3: echo -e "x9AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_3: echo -e "x10AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_3: echo -e "x11AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_3: echo -e "x12AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_3: echo -e "x13AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_3: echo -e "x14AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_3: echo -e "x15AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_3: echo -e "x16AVx3\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_4: echo -e "x1AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_4: echo -e "x2AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_4: echo -e "x3AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_4: echo -e "x4AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_4: echo -e "x5AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_4: echo -e "x6AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_4: echo -e "x7AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_4: echo -e "x8AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_4: echo -e "x9AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_4: echo -e "x10AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_4: echo -e "x11AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_4: echo -e "x12AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_4: echo -e "x13AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_4: echo -e "x14AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_4: echo -e "x15AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_4: echo -e "x16AVx4\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_5: echo -e "x1AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_5: echo -e "x2AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_5: echo -e "x3AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_5: echo -e "x4AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_5: echo -e "x5AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_5: echo -e "x6AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_5: echo -e "x7AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_5: echo -e "x8AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_5: echo -e "x9AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_5: echo -e "x10AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_5: echo -e "x11AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_5: echo -e "x12AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_5: echo -e "x13AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_5: echo -e "x14AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_5: echo -e "x15AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_5: echo -e "x16AVx5\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_6: echo -e "x1AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_6: echo -e "x2AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_6: echo -e "x3AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_6: echo -e "x4AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_6: echo -e "x5AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_6: echo -e "x6AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_6: echo -e "x7AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_6: echo -e "x8AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_6: echo -e "x9AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_6: echo -e "x10AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_6: echo -e "x11AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_6: echo -e "x12AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_6: echo -e "x13AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_6: echo -e "x14AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_6: echo -e "x15AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_6: echo -e "x16AVx6\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_7: echo -e "x1AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_7: echo -e "x2AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_7: echo -e "x3AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_7: echo -e "x4AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_7: echo -e "x5AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_7: echo -e "x6AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_7: echo -e "x7AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_7: echo -e "x8AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_7: echo -e "x9AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_7: echo -e "x10AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_7: echo -e "x11AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_7: echo -e "x12AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_7: echo -e "x13AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_7: echo -e "x14AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_7: echo -e "x15AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_7: echo -e "x16AVx7\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_8: echo -e "x1AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_8: echo -e "x2AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_8: echo -e "x3AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_8: echo -e "x4AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_8: echo -e "x5AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_8: echo -e "x6AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_8: echo -e "x7AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_8: echo -e "x8AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_8: echo -e "x9AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_8: echo -e "x10AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_8: echo -e "x11AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_8: echo -e "x12AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_8: echo -e "x13AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_8: echo -e "x14AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_8: echo -e "x15AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_8: echo -e "x16AVx8\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_9: echo -e "x1AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_9: echo -e "x2AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_9: echo -e "x3AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_9: echo -e "x4AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_9: echo -e "x5AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_9: echo -e "x6AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_9: echo -e "x7AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_9: echo -e "x8AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_9: echo -e "x9AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_9: echo -e "x10AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_9: echo -e "x11AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_9: echo -e "x12AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_9: echo -e "x13AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_9: echo -e "x14AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_9: echo -e "x15AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_9: echo -e "x16AVx9\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_10: echo -e "x1AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_10: echo -e "x2AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_10: echo -e "x3AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_10: echo -e "x4AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_10: echo -e "x5AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_10: echo -e "x6AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_10: echo -e "x7AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_10: echo -e "x8AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_10: echo -e "x9AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_10: echo -e "x10AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_10: echo -e "x11AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_10: echo -e "x12AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_10: echo -e "x13AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_10: echo -e "x14AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_10: echo -e "x15AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_10: echo -e "x16AVx10\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_11: echo -e "x1AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_11: echo -e "x2AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_11: echo -e "x3AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_11: echo -e "x4AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_11: echo -e "x5AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_11: echo -e "x6AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_11: echo -e "x7AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_11: echo -e "x8AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_11: echo -e "x9AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_11: echo -e "x10AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_11: echo -e "x11AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_11: echo -e "x12AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_11: echo -e "x13AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_11: echo -e "x14AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_11: echo -e "x15AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_11: echo -e "x16AVx11\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_12: echo -e "x1AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_12: echo -e "x2AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_12: echo -e "x3AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_12: echo -e "x4AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_12: echo -e "x5AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_12: echo -e "x6AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_12: echo -e "x7AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_12: echo -e "x8AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_12: echo -e "x9AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_12: echo -e "x10AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_12: echo -e "x11AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_12: echo -e "x12AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_12: echo -e "x13AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_12: echo -e "x14AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_12: echo -e "x15AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_12: echo -e "x16AVx12\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_13: echo -e "x1AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_13: echo -e "x2AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_13: echo -e "x3AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_13: echo -e "x4AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_13: echo -e "x5AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_13: echo -e "x6AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_13: echo -e "x7AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_13: echo -e "x8AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_13: echo -e "x9AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_13: echo -e "x10AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_13: echo -e "x11AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_13: echo -e "x12AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_13: echo -e "x13AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_13: echo -e "x14AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_13: echo -e "x15AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_13: echo -e "x16AVx13\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_14: echo -e "x1AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_14: echo -e "x2AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_14: echo -e "x3AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_14: echo -e "x4AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_14: echo -e "x5AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_14: echo -e "x6AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_14: echo -e "x7AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_14: echo -e "x8AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_14: echo -e "x9AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_14: echo -e "x10AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_14: echo -e "x11AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_14: echo -e "x12AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_14: echo -e "x13AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_14: echo -e "x14AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_14: echo -e "x15AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_14: echo -e "x16AVx14\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_15: echo -e "x1AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_15: echo -e "x2AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_15: echo -e "x3AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_15: echo -e "x4AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_15: echo -e "x5AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_15: echo -e "x6AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_15: echo -e "x7AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_15: echo -e "x8AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_15: echo -e "x9AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_15: echo -e "x10AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_15: echo -e "x11AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_15: echo -e "x12AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_15: echo -e "x13AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_15: echo -e "x14AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_15: echo -e "x15AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_15: echo -e "x16AVx15\x0d" | /config/nc 192.168.0.68 4999 -w1
+#
+  hdmi_16x16_input_1_output_16: echo -e "x1AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_2_output_16: echo -e "x2AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_3_output_16: echo -e "x3AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_4_output_16: echo -e "x4AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_5_output_16: echo -e "x5AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_6_output_16: echo -e "x6AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_7_output_16: echo -e "x7AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_8_output_16: echo -e "x8AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_9_output_16: echo -e "x9AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_10_output_16: echo -e "x10AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_11_output_16: echo -e "x11AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_12_output_16: echo -e "x12AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_13_output_16: echo -e "x13AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_14_output_16: echo -e "x14AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_15_output_16: echo -e "x15AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+  hdmi_16x16_input_16_output_16: echo -e "x16AVx16\x0d" | /config/nc 192.168.0.68 4999 -w1
+ #
+  hdmi_16x16_status: echo -e "Status\x0d" | /config/nc 192.168.0.68 4999 -w1
+  #
+  # hdmi_6x6_matrix_switch 192.168.0.68
+#commands for testing:
+#echo -e "x2AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+#echo -e "x3AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_1: echo -e "x1AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_1: echo -e "x2AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_1: echo -e "x3AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_1: echo -e "x4AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_1: echo -e "x5AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_1: echo -e "x6AVx1\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_2: echo -e "x1AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_2: echo -e "x2AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_2: echo -e "x3AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_2: echo -e "x4AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_2: echo -e "x5AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_2: echo -e "x6AVx2\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_3: echo -e "x1AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_3: echo -e "x2AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_3: echo -e "x3AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_3: echo -e "x4AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_3: echo -e "x5AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_3: echo -e "x6AVx3\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_4: echo -e "x1AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_4: echo -e "x2AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_4: echo -e "x3AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_4: echo -e "x4AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_4: echo -e "x5AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_4: echo -e "x6AVx4\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_5: echo -e "x1AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_5: echo -e "x2AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_5: echo -e "x3AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_5: echo -e "x4AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_5: echo -e "x5AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_5: echo -e "x6AVx5\x0d" | /config/nc 192.168.0.81 23 -w1
+  #  
+  hdmi_6x6_input_1_output_6: echo -e "x1AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_2_output_6: echo -e "x2AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_3_output_6: echo -e "x3AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_4_output_6: echo -e "x4AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_5_output_6: echo -e "x5AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+  hdmi_6x6_input_6_output_6: echo -e "x6AVx6\x0d" | /config/nc 192.168.0.81 23 -w1
+#
+  hdmi_6x6_status: echo -e "Status\x0d" | /config/nc 192.168.0.81 23 -w1
+#
+#insignia_tv_zn_1 - zone 1 - GC2 192.168.0.60 - ir output 1 
+  insignia_tv_zn_1_power_on: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_power_off: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_power_toggle: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_mute_toggle: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_volume_down: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_volume_up: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_input_hdmi_1: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_input_hdmi_2: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_1_exit: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1#
+#insignia_tv_zn_2 - zone 2 - GC2 192.168.0.60 - ir output 2 
+  insignia_tv_zn_2_power_on: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_power_off: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_power_toggle: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_mute_toggle: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_volume_down: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_volume_up: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_input_hdmi_1: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_input_hdmi_2: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_2_exit: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1#
+#
+#insignia_tv_zn_3 - zone 3 - GC2 192.168.0.60 - ir output 3 
+  insignia_tv_zn_3_power_on: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_power_off: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_power_toggle: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_mute_toggle: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_volume_down: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_volume_up: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_input_hdmi_1: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_input_hdmi_2: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.60 4998 -w1
+  insignia_tv_zn_3_exit: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.60 4998 -w1
+#
+#office_insignia_50_tv - zone 4 - GC2 192.168.0.61 - ir output 1 
+  office_insignia_50_tv_power_on: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_power_off: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_power_toggle: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_mute_toggle: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_volume_down: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_volume_up: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_input_hdmi_1: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_input_hdmi_2: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  office_insignia_50_tv_exit: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+#
+#insignia_tv_zn_5 - zone 5 - GC2 192.168.0.61 - ir output 2 
+  insignia_tv_zn_5_power_on: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_power_off: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_power_toggle: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_mute_toggle: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_volume_down: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_volume_up: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_input_hdmi_1: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_input_hdmi_2: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_5_exit: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+#
+#insignia_tv_zn_6 - zone 6 - GC2 192.168.0.61 - ir output 3 
+  insignia_tv_zn_6_power_on: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_power_off: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_power_toggle: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_mute_toggle: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_volume_down: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_volume_up: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_input_hdmi_1: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_input_hdmi_2: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.61 4998 -w1
+  insignia_tv_zn_6_exit: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.61 4998 -w1
+#
+#office_insignia_tv_desk_upper_right - zone 7 - GC2 192.168.0.62 - ir output 1 
+  office_insignia_tv_desk_upper_right_power_on: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_power_off: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_power_toggle: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_mute_toggle: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_volume_down: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_volume_up: echo -e "sendir,1:1,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_input_hdmi_1: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_input_hdmi_2: echo -e "sendir,1:1,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_upper_right_exit: echo -e "sendir,1:1,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+#
+  #office_insignia_tv_desk_lower_right - zone 8 - GC2 192.168.0.62 - ir output 2 
+  office_insignia_tv_desk_lower_right_power_on: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_power_off: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_power_toggle: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_mute_toggle: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_volume_down: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_volume_up: echo -e "sendir,1:2,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_input_hdmi_1: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_input_hdmi_2: echo -e "sendir,1:2,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_right_exit: echo -e "sendir,1:2,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+#
+  #office_insignia_tv_desk_lower_left - zone 9 - GC2 192.168.0.62 - ir output 3 
+  office_insignia_tv_desk_lower_left_power_on: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_power_off: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,65,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_power_toggle: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_mute_toggle: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64CBBBBCCBCBBBBBBCCCBBBBCBBBCCCC,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_volume_down: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_volume_up: echo -e "sendir,1:3,1,38000,1,69,341,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,21,21,64,21,64,21,64,21,64,21,1673,341,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_input_hdmi_1: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_input_hdmi_2: echo -e "sendir,1:3,1,38000,1,69,343,172,21,22,21,65,21,65,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,65,21,65,21,65,21,22,21,65,21,22,21,1673,343,86,21,3732\x0d" | /config/nc 192.168.0.62 4998 -w1
+  office_insignia_tv_desk_lower_left_exit: echo -e "sendir,1:3,1,38000,1,69,340,170,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,64,21,21,21,64,21,64,21,21,21,21,21,21,21,21,21,21,21,64,21,21,21,21,21,64,21,64,21,64,21,1673,340,85,21,3664\x0d" | /config/nc 192.168.0.62 4998 -w1
+#
+  #xantech_rt16_10 - zone 6 - GC2 192.168.0.61 - ir output 6
+  xantech_rt16_10_1: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,1537,341,84,22,3649,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_2: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,19,22,19,22,62,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,19,22,62,22,19,22,62,22,62,22,62,22,1533,341,83,22,3644,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_3: echo -e "sendir,1:3,1,38000,1,1,341,169,22,20,22,62,22,62,22,62,22,20,22,20,22,20,22,20,22,62,22,20,22,20,22,20,22,62,22,62,22,62,22,62,22,20,22,62,22,20,22,20,22,20,22,20,22,20,22,20,22,62,22,20,22,62,22,62,22,62,22,62,22,62,22,62,22,1541,341,83,22,3661,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_4: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,1537,341,83,22,3650,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_5: echo -e "sendir,1:3,1,38000,1,1,341,169,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,1542,341,84,22,3661,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_6: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,63,22,63,22,63,22,19,22,19,22,19,22,19,22,63,22,19,22,19,22,19,22,63,22,63,22,63,22,63,22,63,22,19,22,63,22,19,22,19,22,19,22,19,22,19,22,19,22,63,22,19,22,63,22,63,22,63,22,63,22,63,22,1536,341,83,22,3649,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_7: echo -e "sendir,1:3,1,38000,1,1,341,168,22,20,22,62,22,62,22,62,22,20,22,20,22,20,22,20,22,62,22,20,22,20,22,20,22,62,22,62,22,62,22,62,22,20,22,62,22,62,22,20,22,20,22,20,22,20,22,20,22,62,22,20,22,20,22,62,22,62,22,62,22,62,22,62,22,1537,341,83,22,3650,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_8: echo -e "sendir,1:3,1,38000,1,1,341,169,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,1542,341,84,22,3662,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_9: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,63,22,63,22,63,22,19,22,19,22,19,22,19,22,63,22,19,22,19,22,19,22,63,22,63,22,63,22,63,22,19,22,19,22,63,22,19,22,19,22,19,22,19,22,19,22,63,22,63,22,19,22,63,22,63,22,63,22,63,22,63,22,1537,341,83,22,3649,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_10: echo -e "sendir,1:3,1,38000,1,1,341,169,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,62,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,19,22,62,22,62,22,62,22,62,22,1542,341,84,22,3662,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_11: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,19,22,62,22,19,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,62,22,19,22,62,22,62,22,62,22,62,22,1537,341,83,22,3650,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_12: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,63,22,63,22,63,22,19,22,19,22,19,22,19,22,63,22,19,22,19,22,19,22,63,22,63,22,63,22,63,22,63,22,63,22,19,22,63,22,19,22,19,22,19,22,19,22,19,22,19,22,63,22,19,22,63,22,63,22,63,22,63,22,1536,341,83,22,3650,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_13: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,19,22,62,22,62,22,62,22,62,22,1537,341,83,22,3650,341,84,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_14: echo -e "sendir,1:3,1,38000,1,1,341,169,22,20,22,62,22,62,22,62,22,20,22,20,22,20,22,20,22,62,22,20,22,20,22,20,22,62,22,62,22,62,22,62,22,62,22,20,22,62,22,62,22,20,22,20,22,20,22,20,22,20,22,62,22,20,22,20,22,62,22,62,22,62,22,62,22,1542,341,83,22,3662,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_15: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,1534,341,83,22,3644,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_16: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,1534,341,83,22,3643,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_group_on: echo -e "sendir,1:3,1,38000,1,1,341,168,22,19,22,63,22,63,22,63,22,19,22,19,22,19,22,19,22,63,22,19,22,19,22,19,22,63,22,63,22,63,22,63,22,19,22,19,22,63,22,63,22,19,22,19,22,19,22,19,22,63,22,63,22,19,22,19,22,63,22,63,22,63,22,63,22,1537,341,84,22,3649,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+  xantech_rt16_10_group_off: echo -e "sendir,1:3,1,38000,1,1,341,169,22,19,22,62,22,62,22,62,22,19,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,62,22,62,22,62,22,62,22,62,22,19,22,19,22,19,22,62,22,19,22,19,22,19,22,19,22,62,22,62,22,62,22,19,22,62,22,62,22,62,22,1537,341,83,22,3650,341,83,22,3800\x0d" | /config/nc 192.168.0.61 4998 -w1
+#
+  #samsung_rec_area - zone 1 - GC1 192.168.0.60 - ir output 1
+  samsung_rec_area_power_on: echo -e "sendir,1:1,1,38000,1,1,172,172,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,21,22,21,22,64,22,64,22,21,22,21,22,64,22,21,22,64,22,64,22,21,22,21,22,64,22,64,22,21,22,1820\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_power_off: echo -e "sendir,1:1,1,38000,1,1,173,173,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,21,21,21,21,65,21,65,21,65,21,65,21,21,21,21,21,65,21,65,21,21,21,1832\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_mute_toggle: echo -e "sendir,1:1,1,38000,1,1,172,172,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,64,22,1820\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_volume_down: echo -e "sendir,1:1,1,38000,1,1,172,172,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,21,22,64,22,21,22,21,22,21,22,21,22,21,22,21,22,64,22,21,22,64,22,64,22,64,22,64,22,1820\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_volume_up: echo -e "sendir,1:1,1,38000,1,1,172,172,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,21,22,64,22,64,22,64,22,64,22,64,22,1820\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_input_hdmi_1: echo -e "sendir,1:1,1,38000,1,1,173,173,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,21,21,21,21,65,21,21,21,65,21,65,21,65,21,21,21,65,21,65,21,21,21,65,21,21,21,21,21,21,21,1832\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_input_hdmi_2: echo -e "sendir,1:1,1,38000,1,1,173,173,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,65,21,65,21,21,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,21,21,1832\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_input_hdmi_3: echo -e "sendir,1:1,1,38000,1,1,173,173,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,21,21,21,21,21,21,21,21,21,21,21,21,65,21,21,21,21,21,21,21,21,21,65,21,65,21,65,21,21,21,65,21,65,21,65,21,65,21,21,21,21,21,1832\x0d" | /config/nc 192.168.0.60 4998 -w1
+  samsung_rec_area_input_hdmi_4: echo -e "sendir,1:1,1,38000,1,1,172,171,21,65,21,65,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,65,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,22,21,65,21,65,21,65,21,22,21,22,21,1673\x0d" | /config/nc 192.168.0.60 4998 -w1
